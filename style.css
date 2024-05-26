@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.container {
+    
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    margin: auto;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.user{
+    margin-right: 40px;
+    font-size: 40px;
+    color: blue;
+}
+.comp{
+    font-size: 40px;
+    color: blue;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    
+}
+
+#msg{
+    
+    height: 20px;
+    padding: 10px;
+    background-color:green;
+    color:lightgreen;
+    border-radius: 5px;
+    
+    
+
+}
